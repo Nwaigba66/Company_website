@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Gloria&NkemBusinessconsulting-log in or sign up
+        </title>
+    </head>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            width: 100%;
+            background-color: #26458f;
+            height: 100px;
+        }
+        .title {
+            position: relative;
+            left: 100px;
+            top: 20px;
+            color: white;
+            font-size: 32px;
+        }
+        .home {
+            position: relative;
+            left: 250px;
+            top: 20px;
+            color: white;
+            font-size: 20px;
+        } 
+         .about {
+            position: relative;
+            left: 300px;
+            top: 20px;
+            color: white;
+            font-size: 20px;
+        } 
+         .services2 {
+            position: relative;
+            left: 800px;
+            bottom: 6px;
+            color: white;
+            font-size: 20px;
+        }  
+        .appli {
+            position: relative;
+            left: 840px;
+            bottom: 7px;
+            color: white;
+            font-size: 20px;
+        }
+        .contactnav {
+            position: relative;
+            left: 1110px;
+            bottom: 29.5px;
+            color: white;
+            font-size: 20px;
+        }
+        .search {
+            position: relative;
+            left: 1220px;
+            bottom: 52px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .email {
+            position: relative;
+            color: white;
+            left: 408px;
+            top: 5px;
+        }
+        .password {
+            position: relative;
+            color: white;
+            left: 500px;
+            top: 5px;
+        }
+        .ine {
+            position: relative;
+            left: 750px;
+        }
+        .inp{
+            position: relative;
+            left: 790px;
+        }
+        .myButton {
+            position:relative;
+            left: 1340px;
+            box-shadow: 0px 0px 0px 2px #9fb4f2;
+            background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+            background-color:#7892c2;
+            border:1px solid #4e6096;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:12px;
+            font-weight:bold;
+            padding:10px 14px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #283966;
+            bottom: 79px;
+        }
+        .myButton:hover {
+            background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+            background-color:#476e9e;
+        }
+        .myButton:active {
+            position:relative;
+            top:1px;
+        }
+        .forgotpassword {
+            position: relative;
+            text-decoration: none;
+            left: 950px;
+            font-size: 85%;
+            color: #9cb4d8;
+        }   
+        .forgotpassword:hover { 
+            text-decoration: underline; 
+            color:aqua;   
+        }
+        .signup {
+            background-image: linear-gradient(#f5fcff, #D6DAEA);
+            width: 100%;
+            height: 950px;
+        }
+    
+        .secure {  
+            position: relative;
+            left: 100px; 
+            font-size: 30px;
+            top: 20px;
+        }
+        .img {
+            position: absolute;
+            right: 80px;
+            top: 212px;
+            height: 350px;    
+        }
+        .create {
+            position: relative;
+            left: 150px;
+            font-size: 2em;
+            color: #26458f;
+            font-weight: bold;
+        }
+        .quick {
+            position: relative;
+            left: 150px;
+            font-size: 1.25em;
+        }
+       
+        .mobile {
+            padding: 7px;
+            position: relative;
+            top: 110px;
+            width: 300px;
+            right: 173px;
+        }
+        .newpassword {
+             padding: 7px;
+            position: relative;
+            top: 12px;
+            width: 300px;
+            left: 155px;     
+         }
+        
+         .confirm {
+            padding: 7px;
+           position: relative;
+           top: 12px;
+           width: 300px;
+           left: 155px;
+        }
+
+         .dob {
+            position: relative;
+            font-size: 1.12em;
+            left: 156px;
+            top: 10px;
+            color: #333333;
+         }
+         
+         .gen {
+            position: relative;
+            left: 76px;
+            bottom: 110px;
+            left: 135px;
+           
+         }
+         .gender {
+            font-size: 1.12em;
+            color: #333333;
+            bottom: 110px;
+            left: 135px;
+         }
+         .button {
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 4px 2px;
+          }
+          .sign {
+            position: relative;
+           left: 150px;
+           font-size: 16px;
+          }
+          
+          .button1 {
+            top: 19.5px;
+            position: relative;
+            background-color: #dcdcdc;
+            border-radius: 5px;
+            color: #555;
+            width: 6%;
+            height: 4%;
+        } /* blue */
+          .button2 {
+            top: 11.5px;
+            position: relative;
+            left: 4px;
+            background-color: #26458f;
+            border-radius: 5px;
+            color: white;
+            width: 7%;
+            height: 4%;
+        } /*Grey */
+        .button3 {
+            top: 20px;
+            position: relative;
+            left: 7px;
+            background-color: #dcdcdc;
+            border-radius: 5px;
+            color: #555;
+            width: 7%;
+            height: 4%;
+        } /*Grey */
+        .button4 {
+            bottom: 26.5px;
+            position: relative;
+            left: 310px;
+            background-color: #dcdcdc;
+            border-radius: 5px;
+            color: #555;
+            width: 7%;
+            height: 4%;
+        } /*Grey */
+        .terms {
+                position:relative;
+                left: 135px; 
+                bottom: 115px;  
+        }
+        .privacy {
+            position: relative;
+            left: 139px;
+            bottom: 115px; 
+        }
+        ::-ms-checkbox::after {
+            color: red;
+            background: black;
+            padding: 1em;   
+        }
+    
+        #footer P {
+            position: relative;
+            color: white;
+            margin: 0px;
+            text-align: 400px;
+            line-height: 50px;
+            font-family: calibri;
+            left: 550px;
+        }
+        .footer {
+            position: relative;
+            color: white;
+            margin: 0px;
+           left: 500px;
+            line-height: 50px;
+            font-family: calibri;
+            padding-top: 150px;   
+        }
+        
+        #footer a {
+            color:yellow;
+            text-decoration: none;	    
+        }
+        #footer a:hover {
+            color:orange;
+            text-decoration: underline;	
+        }
+        .footerbar {
+            width: 120%;
+            background-color: #26458f;
+            height: 30%;
+        }
+        .createaccount {
+            position:relative;
+            left: 170px;
+            box-shadow: 0px 0px 0px 2px #9fb4f2;
+            background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+            background-color:#77b55a;
+            border:1px solid #4b8f29;
+            border-radius:14px;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:14px;
+            font-weight:bold;
+            padding:10px 14px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #283966;
+            width: 120px;
+            text-align: center;
+        }
+        .createaccount:hover {
+            position:relative;
+            background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+            background-color:#72b352;
+        }
+        .createaacount:active {
+            position:relative;
+            top:1px;
+        }
+        .secondtitle {
+            position: relative;
+            padding-left: 100px;
+            color: white;
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+            left: 180px;
+            top: 38px;
+        }
+        .contact {
+            position: relative;
+            color: white;
+           text-align: center;
+            line-height: 10px;
+            font-family: calibri;
+            left: 900px; 
+            font-size: 24px;
+            top: 38px;
+        }
+           
+        .services {
+            position: relative;
+            color: white;
+            text-align: center;
+            line-height: 10px;
+            font-family: calibri;
+            left: 400px;
+            font-size: 24px;
+            top: 38px;
+        }
+        #wrapper {
+            width: 250px;
+            margin: 10px;
+            
+        }
+        .form {
+            left: 50px;
+        }
+        .privacy {
+            position: relative;
+        }
+        .label {
+            position: relative;
+            left: 500px;  
+        }
+        #Companyname {
+            width: 400px;
+            height: 35px;
+            bottom: 30px;
+            left: 20px;
+        }
+        .Companyname {
+            width: 400px;
+            height: 35px;
+            bottom: 30px;
+            left: 20px;
+        }
+        .email2 {
+           left: 5px;
+          margin-top: 100px;
+          color: black;
+          bottom: 30px; 
+        }
+        #email2 {
+            width: 400px;
+            height: 35px;
+            left: 70px
+        }
+        #fname {
+            width: 200px;
+            height: 35px;
+            left: 70px;
+        }
+        #lname {
+            position: relative;
+            width: 200px;
+            height: 35px;
+           left: 220px; 
+           bottom: 61px;   
+        }
+        .lname {
+            position: relative;
+            width: 230px;
+            height: 92px;
+           left: 17px; 
+           bottom: 45px;   
+        }
+       
+        .fname {
+            position: relative;   
+        }
+       
+        #password2 {
+            position: relative;
+            width: 200px;
+            height: 35px;
+            left: 0px; 
+            bottom: 55px;  
+        } 
+        .password2 {
+            position: relative;
+            color: black;
+            bottom: 44px;
+            left: 0px;
+              
+        } 
+        #Cpassword {
+            position: relative;
+            width: 200px;
+            height: 35px; 
+            bottom: 11.5%; 
+            left: 15.5%;  
+        } 
+        .Cpassword {
+            position: relative;
+            width: 200px;
+            height: 35px;  
+            bottom: 9%; 
+            left: 13px;
+        } 
+        #submit {
+            position: relative;
+            background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+            width: 200px;
+            height: 35px; 
+            bottom: 11%;   
+            left: 133px; 
+            box-shadow: 0px 0px 0px 2px #9fb4f2; 
+        }
+        #submit:hover {
+            position:relative;
+            background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+            background-color:#72b352;
+        }
+        .form {
+            margin-top: 1rem;
+        }
+    
+        .symbol{
+            color: red;
+        }
+        .movement {
+            position:relative;
+            left: 9%;
+        }
+        .movement2 {
+            position:relative;
+            left: 50%;
+        }
+        .Already {
+            position: relative;
+            bottom: 11%; 
+            left: 130px;
+        }
+        .login2 {
+            position: relative;    
+        }
+      
+       .contact {
+        position: relative;
+        font-size: 40px;
+        color: #26458f;
+        left: 650px;
+        top: 60px;
+        font-family: calibri;
+        text-decoration: solid;
+       }
+       #contact-section {
+            width: 100%;
+            height: 130px;
+            background-color: lightblue;
+           }
+      
+       #contact-section-subsection {
+            width: 100%;
+            height: 490px;
+            background-color: white;
+           }
+       
+        .Socialmedia {
+            position: relative;
+            font-size: 40px;
+            color: black;
+        }
+        .Contact {
+            position: relative;
+            font-size: 40px;
+            color: black;
+        }
+        .rows {
+            position: relative;
+            font-size: 32px;
+            text-decoration: solid;
+            color: black;
+            left: 300px;
+            bottom: 300px;
+        }
+        .columns {
+            position: relative;
+            font-size: 32px;
+            text-decoration: solid;
+            color: black;
+            left: 900px;
+            bottom: 370px;
+        }
+        .img {
+            height: 50px;
+            width: 6%;
+            left: 23%;
+            top: 500px;
+        }
+        .img2 {
+            position: relative;
+            height: 50px;
+            width: 6%;
+            left: 22.5%;
+            bottom: 230px;
+          
+          
+        }
+
+       
+             
+        
+    </style>
+
+
+    
+    <body>
+        
+        <div class="navbar">
+            
+            <span class="title">G&N Business Consulting</span>
+            <a href="#" class="home">Home</a>
+
+            
+            <a href="#" class="about">About</a><br>
+            
+
+            <a href="#" class="services2">Services</a>
+            
+
+            <a target="_blank" href="/Users/gloriankemnwaigba/Desktop/Gyonix & Sir Paul's Project documents/Company website/application.html" class="appli">Application process</a><br>
+            
+
+            <a target="_blank" href="/Users/gloriankemnwaigba/Desktop/Gyonix & Sir Paul's Project documents/Company website/contact_us.html" class="contactnav">Contact</a><br>
+            
+
+            <a href="#" class="search">Search</a><br>
+            
+            
+            <a target="_blank" href="/Users/gloriankemnwaigba/Desktop/Gyonix & Sir Paul's Project documents/Company website/login.html" class="myButton">Log in</a>
+            <br>
+            
+        </div>
+
+        
+            <div id="contact-section">
+                
+                <span class="contact">Log in</span>
+            </div>
